@@ -1,0 +1,14 @@
+{
+  "name": "cloudsphere-backend",
+  "version": "1.0.0",
+  "description": "CloudSphere Backend API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Balaji",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
