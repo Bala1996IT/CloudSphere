@@ -9,6 +9,7 @@
   "author": "Balaji",
   "license": "MIT",
   "dependencies": {
+    "cors": "^2.8.6",
     "express": "^5.1.0"
   }
 }

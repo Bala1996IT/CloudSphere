@@ -8,32 +8,38 @@
 </head>
 <body>
 
-    <header>
+    <main class="container">
+
         <h1>CloudSphere</h1>
-        <p>Cloud Resource Management & Visibility Platform</p>
-    </header>
 
-    <main class="dashboard">
+        <p class="subtitle">
+            Agentic AI Platform for Heavy Oil IT
+        </p>
 
-        <section class="card">
-            <h2>Virtual Machines</h2>
-            <p id="vm-count">0</p>
-        </section>
+        <h2>What would you like CloudSphere to do?</h2>
 
-        <section class="card">
-            <h2>Applications</h2>
-            <p id="app-count">0</p>
-        </section>
+        <div class="prompt-container">
 
-        <section class="card">
-            <h2>Storage Accounts</h2>
-            <p id="storage-count">0</p>
-        </section>
+            <input
+                type="text"
+                id="userPrompt"
+                placeholder="Ask CloudSphere..."
+            >
 
-        <section class="card">
-            <h2>Databases</h2>
-            <p id="database-count">0</p>
-        </section>
+            <button id="submitBtn">
+                Send
+            </button>
+
+        </div>
+
+        <div class="suggestions">
+
+            <p>Show subscriptions</p>
+            <p>Show resource groups</p>
+            <p>List all VMs</p>
+            <p>Show storage accounts</p>
+
+        </div>
 
     </main>
 
