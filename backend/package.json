@@ -9,7 +9,10 @@
   "author": "Balaji",
   "license": "MIT",
   "dependencies": {
+    "@azure/arm-resources": "^8.0.0",
+    "@azure/identity": "^4.13.1",
     "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
     "express": "^5.1.0"
   }
 }
