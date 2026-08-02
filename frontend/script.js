@@ -22,7 +22,7 @@ submitBtn.addEventListener('click', async () => {
 
         const data = await response.json();
 
-        alert(data.response);
+        alert(data.message);
 
     } catch (error) {
         console.error(error);
