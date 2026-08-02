@@ -1,11 +1,13 @@
 const express = require('express');
 const cors = require('cors');
+const commandRoutes = require("./routes/commandRoutes");
 
 const app = express();
 const PORT = 3000;
 
 app.use(cors());
 app.use(express.json());
+app.use("/api/command", commandRoutes);
 
 app.get('/', (req, res) => {
     res.send('CloudSphere API is running');
