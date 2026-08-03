@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "lanId": "BPARTHI",
+      "role": "ADMIN",
+      "enabled": true
+    },
+    {
+      "lanId": "TESTUSER01",
+      "role": "OPERATOR",
+      "enabled": true
+    },
+    {
+      "lanId": "VIEWUSER01",
+      "role": "VIEWER",
+      "enabled": true
+    }
+  ]
+}

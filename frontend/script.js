@@ -1,5 +1,6 @@
 const submitBtn = document.getElementById('submitBtn');
 const userPrompt = document.getElementById('userPrompt');
+const chatContainer = document.getElementById('chatContainer');
 
 submitBtn.addEventListener('click', async () => {
 
@@ -21,8 +22,10 @@ submitBtn.addEventListener('click', async () => {
         });
 
         const data = await response.json();
+        
+        chatContainer.innerHTML += `<p><strong>You:</strong> ${prompt}</p>`;
+        chatContainer.innerHTML += `<p><strong>CloudSphere:</strong> ${data.message}</p>`;
 
-        alert(data.message);
 
     } catch (error) {
         console.error(error);

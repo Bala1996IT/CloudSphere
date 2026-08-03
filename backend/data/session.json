@@ -1,0 +1,8 @@
+{
+  "state": "WAITING_FOR_COMMAND",
+  "authenticated": false,
+  "lanId": null,
+  "role": null,
+  "pendingCommand": null,
+  "history": []
+}
