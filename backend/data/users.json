@@ -3,17 +3,26 @@
     {
       "lanId": "BPARTHI",
       "role": "ADMIN",
-      "enabled": true
+      "enabled": true,
+      "groups": [
+        "CloudSphere.UG"
+      ]
     },
     {
       "lanId": "TESTUSER01",
       "role": "OPERATOR",
-      "enabled": true
+      "enabled": true,
+      "groups": [
+        "CloudSphere.UG"
+      ]
     },
     {
       "lanId": "VIEWUSER01",
       "role": "VIEWER",
-      "enabled": true
+      "enabled": true,
+      "groups": [
+        "CloudSphere.UG"
+      ]
     }
   ]
 }

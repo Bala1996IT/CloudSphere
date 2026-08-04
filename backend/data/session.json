@@ -4,5 +4,6 @@
   "lanId": null,
   "role": null,
   "pendingCommand": null,
-  "history": []
+  "history": [],
+  "lastActivity": null
 }
